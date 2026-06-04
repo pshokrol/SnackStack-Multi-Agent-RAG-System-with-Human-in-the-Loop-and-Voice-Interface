@@ -1,10 +1,10 @@
-# 🍔 SnackStack: Multi-Agent RAG System with Human-in-the-Loop and Voice Interface
+# SnackStack: Multi-Agent RAG System with Human-in-the-Loop and Voice Interface
 
 SnackStack is a multi-agent conversational AI system for food ordering, built with LangGraph. It features an Orchestrator for query routing, a Menu Agent with ChromaDB RAG for semantic food search, and an Order Agent with Human-in-the-Loop (HITL) for order tracking. Responses are unified by a Synthesizer. Bonus: voice I/O via OpenAI Whisper STT and TTS.
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 User Query
@@ -21,7 +21,7 @@ Menu Agent    Order Agent
 
 ---
 
-## ✨ Features
+## Features
 
 - **Orchestrator** — Routes queries to the correct agent using GPT-4o structured output
 - **Menu Agent** — Semantic food search powered by ChromaDB vector store and RAG
@@ -32,7 +32,7 @@ Menu Agent    Order Agent
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Component | Technology |
 |---|---|
@@ -47,7 +47,7 @@ Menu Agent    Order Agent
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 ├── run.py                  # Main entry point — all agents, graph, and voice loop
@@ -58,7 +58,7 @@ Menu Agent    Order Agent
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Clone the repository
 ```bash
@@ -97,7 +97,7 @@ You will be prompted to select a mode:
 
 ---
 
-## 🧪 Example Queries
+## Example Queries
 
 | Query | Agent Routed |
 |---|---|
@@ -119,7 +119,7 @@ You will be prompted to select a mode:
 
 ---
 
-## ⚠️ Notes
+## Notes
 
 - ChromaDB runs in-memory and rebuilds each session — this is normal
 - The `.env` file is excluded from version control via `.gitignore`
@@ -128,6 +128,6 @@ You will be prompted to select a mode:
 
 ---
 
-## 📄 License
+## License
 
 MIT License
