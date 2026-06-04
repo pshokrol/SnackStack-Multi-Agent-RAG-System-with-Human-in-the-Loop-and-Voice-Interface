@@ -23,12 +23,12 @@ Menu Agent    Order Agent
 
 ## Features
 
-- **Orchestrator** — Routes queries to the correct agent using GPT-4o structured output
-- **Menu Agent** — Semantic food search powered by ChromaDB vector store and RAG
-- **Order Agent** — Order tracking with Human-in-the-Loop (HITL) interrupt when no identifier is provided
-- **Synthesizer** — Merges agent outputs into a single coherent, friendly reply
-- **Voice I/O** — Full voice support via OpenAI Whisper (STT) and TTS
-- **Three interaction modes** — Text chat, full voice (mic + speaker), or type in / speak out
+- **Orchestrator**: Routes queries to the correct agent using GPT-4o structured output
+- **Menu Agent**: Semantic food search powered by ChromaDB vector store and RAG
+- **Order Agent**: Order tracking with Human-in-the-Loop (HITL) interrupt when no identifier is provided
+- **Synthesizer**: Merges agent outputs into a single coherent, friendly reply
+- **Voice I/O**: Full voice support via OpenAI Whisper (STT) and TTS
+- **Three interaction modes**: Text chat, full voice (mic + speaker), or type in / speak out
 
 ---
 
@@ -121,10 +121,10 @@ You will be prompted to select a mode:
 
 ## Notes
 
-- ChromaDB runs in-memory and rebuilds each session — this is normal
+- ChromaDB runs in-memory and rebuilds each session; this is normal
 - The `.env` file is excluded from version control via `.gitignore`
 - Voice mode requires a working microphone and speakers
-- All LLM inference runs via OpenAI API — no GPU required
+- All LLM inference runs via OpenAI API (no GPU required)
 
 ---
 
