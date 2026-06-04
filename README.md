@@ -110,7 +110,7 @@ You will be prompted to select a mode:
 
 ---
 
-## 🎙️ Voice Modes
+## Voice Modes
 
 | Mode | Input | Output |
 |---|---|---|
